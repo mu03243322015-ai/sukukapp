@@ -1,14 +1,11 @@
-
-import Header from "./Header";
-import Card from "./Card";
-import Footer from "./Footer";
-import Icons from "./Icons";
-import ProblemsSection from "./ProblemsSection";
-import ProcessFlow from "./ProcessFlow";
-import BenefitsSection from "./BenefitsSection";
-import RisksSection from "./RisksSection";
-import SectionTitle from "./SectionTitle";
-import SolutionSection from "./SolutionSection";
+import React from 'react';
+import Header from './Header';
+import ProcessFlow from './ProcessFlow';
+import ProblemsSection from './ProblemsSection';
+import SolutionSection from './SolutionSection';
+import BenefitsSection from './BenefitsSection';
+import RisksSection from './RisksSection';
+import Footer from './Footer';
 
 const App: React.FC = () => {
   return (
@@ -18,12 +15,14 @@ const App: React.FC = () => {
         <div className="p-6 md:p-10 space-y-10">
           <ProcessFlow />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            <ProblemsSection />
-            <SolutionSection />
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            <BenefitsSection />
-            <RisksSection />
+            <div className="space-y-6">
+              <ProblemsSection />
+              <SolutionSection />
+            </div>
+            <div className="space-y-6">
+              <BenefitsSection />
+              <RisksSection />
+            </div>
           </div>
         </div>
         <Footer />
