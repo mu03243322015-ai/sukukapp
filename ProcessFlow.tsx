@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { InstitutionIcon, SmartMeterIcon, GovernmentIcon, PakistanMapIcon, MeterSwapIcon, EfficiencyIcon, ChevronRightIcon } from './icons/Icons';
+import { InstitutionIcon, SmartMeterIcon, GovernmentIcon, PakistanMapIcon, MeterSwapIcon, EfficiencyIcon, ChevronRightIcon } from "./Icons";
 
 const flowSteps = [
   { icon: <InstitutionIcon />, text: "Islamic Bank establishes an SPV" },
