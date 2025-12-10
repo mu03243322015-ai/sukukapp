@@ -1,12 +1,14 @@
 
-import React from 'react';
-import Header from './components/Header';
-import ProcessFlow from './components/ProcessFlow';
-import ProblemsSection from './components/ProblemsSection';
-import SolutionSection from './components/SolutionSection';
-import BenefitsSection from './components/BenefitsSection';
-import RisksSection from './components/RisksSection';
-import Footer from './components/Footer';
+import Header from "./Header";
+import Card from "./Card";
+import Footer from "./Footer";
+import Icons from "./Icons";
+import ProblemsSection from "./ProblemsSection";
+import ProcessFlow from "./ProcessFlow";
+import BenefitsSection from "./BenefitsSection";
+import RisksSection from "./RisksSection";
+import SectionTitle from "./SectionTitle";
+import SolutionSection from "./SolutionSection";
 
 const App: React.FC = () => {
   return (
